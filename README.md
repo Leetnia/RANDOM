@@ -1,5 +1,6 @@
 LOW LEVEL MODE,
 -(-<SYOURDATA>-</SYOURDATA>-)-
+_____________________________________________________________________________________________________________________________
 Compatibility With Microsoft Windows QB64 -(Not Tested In QBASIC)- QB64, Display Random Letters, Random Words, Random Colors, ...
 Random1.txt is the "Database" For Random1.bas + Random1.exe.
 Random2.txt is the "Database" For Random2.bas + Random2.exe.
@@ -16,5 +17,7 @@ French Citation by Elveria: "Il faudrait que je retire ma casquette de développ
 
 ! (: FUN :) !
 I LOVE YOU
-
+_____________________________________________________________________________________________________________________________
+BY ELVERIA AND BY LEETNIA, ELVERIA & LEETNIA .
+_____________________________________________________________________________________________________________________________
 -(-<SYOURDATA>-</SYOURDATA>-)-
