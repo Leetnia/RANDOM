@@ -6,14 +6,10 @@ _Title "Random1"
 Dim contenu As String
 
 ' new couleur for psychedelic context ...
-Open "couleur.txt" For Input As #1
+Open "couleur.txt" For Input As #4
 
 ' keep
 Open "Random1.txt" For Input As #1
-
-' new
-Open "Random4.txt" For Input As #4
-
 Do While Not EOF(1)
     Line Input #1, ligne$
     contenu = contenu + ligne$ + " "
@@ -81,7 +77,15 @@ Do
 
     Print " "; ' espace entre chaque affichage
 
-    _Limit 10 ' ralentir un peu la boucle (~10 FPS)
+    ' ralentir un peu la boucle (~10 FPS)
+
+    ' _Limit 10
+
+    _Limit 42
+
+    ' _Limit 10
+
+    ' ralentir un peu la boucle (~10 FPS)
 
 Loop Until touche$ <> "" And touche$ <> Chr$(0) + Chr$(133)
 ' quitter la boucle si une touche est pressée
@@ -93,5 +97,3 @@ Rem SAFE ?
 Rem System
 
 Rem SAFE ?
-
-
